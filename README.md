@@ -6,6 +6,11 @@ Theseus is a command-line tool for comparing sets of Kubernetes objects. It read
 Theseus is intended to be used either via CLI by end-users, or as an imported package within other applications.
 
 ## Getting Started
+To chekout Theseus locally:
+```
+git clone https://github.com/heptiolabs/theseus $GOPATH/src/github.com/heptio/theseus
+```
+
 To build Theseus locally:
 ```
 go build ./cmd/theseus
